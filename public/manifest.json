@@ -1,0 +1,8 @@
+{
+  "short_name": "Фермерские продукты",
+  "name": "Магазин фермерских продуктов с доставкой",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#88AA4D",
+  "background_color": "#ffffff"
+}
