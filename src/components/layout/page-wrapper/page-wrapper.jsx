@@ -2,15 +2,14 @@ import React from 'react';
 import './style.css';
 import Header from '../header/header';
 import Footer from '../footer/footer';
-import Hero from '../../block/hero/hero';
+import MainPage from '../../page/main-page/main-page';
 
-function PageWrapper({...props}) {
+function PageWrapper({...prop}) {
     return (
         <>    
             <Header />
             <main className='main-promo'>
-            <Hero {...props}/>
-            {/* <Features/> */}
+                <MainPage {...prop}/>
             </main>
             <Footer/>
         </>

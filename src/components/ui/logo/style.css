@@ -18,7 +18,7 @@
 
 .logo__text {
     vertical-align: middle;
-    font-family: 'Inter';
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
