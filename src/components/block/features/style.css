@@ -1,0 +1,24 @@
+.features {
+    padding: 100px 90px;
+}
+
+.features__title {
+    margin: 0;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.features__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0;
+    margin-bottom: 64px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.features__button {
+    display: block;
+    margin: 0 auto;
+}

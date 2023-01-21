@@ -1,14 +1,5 @@
 .logo {
     text-decoration: none;
-    transition: all 0.2s ease-out;
-}
-
-.logo:hover {
-    opacity: 0.8;
-}
-
-.logo:active {
-    opacity: 0.6;
 }
 
 .logo__image {    
@@ -24,4 +15,9 @@
     font-size: 28px;
     line-height: 115%;
     color: #333333;
+    transition: all 0.1s ease-out;
+}
+
+.logo:hover .logo__text {
+    text-shadow: 5px 5px 5px #C4E2FF;
 }

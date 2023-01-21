@@ -3,7 +3,7 @@ import './style.css';
 
 function Button ({className, size, children}) {
     return (
-        <button className={`button ${className}`} type='button' style={{minWidth: size}}>{children}</button>
+        <button className={`${className ? `${className} ` : ''}button`} type='button' style={{minWidth: size}}>{children}</button>
     )
 }
 
