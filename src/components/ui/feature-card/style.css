@@ -25,12 +25,25 @@
     line-height: 150%;
     color: #ffffff;
 }
-
+/* 
 .feature-card__image {
     grid-row: 1/3;
     grid-column: 1/2;
     margin-right: 20px;
+} */
+
+
+.feature-card__image {
+    width: 56px;
+    height: 56px;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
 
 .feature-card__text {
     grid-column: 1/3;

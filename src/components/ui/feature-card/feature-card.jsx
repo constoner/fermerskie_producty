@@ -25,7 +25,7 @@ function FeatureCard ({title, text, type, image}) {
         <article className="feature-card" style={{backgroundColor: cardOptions.cardColor}}>
             <Title className='feature-card__title' size={TitleSize.SMALL}>{title}</Title>
             <span className="feature-card__type" style={type ? {backgroundColor: cardOptions.tagColor} : {height: '25px'}}>{cardOptions.tagText}</span>
-            <img className="feature-card__image" src={image} width={56} height={56} alt="" />
+            <div className="feature-card__image" style={{backgroundImage: `url(${image})`}}></div>
             <p className="feature-card__text">{text}</p>
         </article>
         );
