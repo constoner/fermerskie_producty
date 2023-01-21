@@ -1,0 +1,27 @@
+.logo {
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo:active {
+    opacity: 0.6;
+}
+
+.logo__image {    
+    margin-right: 24px;
+    vertical-align: middle;
+}
+
+.logo__text {
+    vertical-align: middle;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 115%;
+    color: #333333;
+}
