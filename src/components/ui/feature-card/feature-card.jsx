@@ -2,10 +2,7 @@ import React from 'react';
 import "./style.css";
 import { Title, TitleSize } from '../title/title';
 
-
-
-
-function FeatureCard ({title, text, type}) {
+function FeatureCard ({title, text, type, image}) {
     const cardOptions = {};
     switch (type) {
         case 'farm':
@@ -24,12 +21,11 @@ function FeatureCard ({title, text, type}) {
             break;
     }
 
-
     return (
         <article className="feature-card" style={{backgroundColor: cardOptions.cardColor}}>
             <Title className='feature-card__title' size={TitleSize.SMALL}>{title}</Title>
             <span className="feature-card__type" style={type ? {backgroundColor: cardOptions.tagColor} : {height: '25px'}}>{cardOptions.tagText}</span>
-            <img className="feature-card__image" src="" alt="" />
+            <img className="feature-card__image" src={image} width={56} height={56} alt="" />
             <p className="feature-card__text">{text}</p>
         </article>
         );
