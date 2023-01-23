@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'
-import heroImage from '../../../assets/hero.svg'
+// import heroImage from '../../../assets/hero.svg'
 import {Title, TitleSize} from '../../ui/title/title';
 
 function Hero ({hero}) {
@@ -21,7 +21,7 @@ function Hero ({hero}) {
                         </>
                     ) : null}
                 </div>
-                <img className='hero__image' src={heroImage} alt="Изображение счастливого фермера." />
+                <img className='hero__image' src={hero.image} alt="Изображение счастливого фермера." />
             </div>
             </>
             ) : null}

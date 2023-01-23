@@ -6,7 +6,7 @@ function Footer () {
     return (
         <footer className='footer'>
             <Logo className='footer__logo'/>
-            <span className='footer__credit'>Создано 2021</span>
+            <a className='footer__credit' href='https://github.com/constoner/fermerskie_producty' target="_blank" rel='noreferrer'>Создано 2021</a>
         </footer>
     );
 }

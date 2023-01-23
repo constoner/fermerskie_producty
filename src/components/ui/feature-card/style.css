@@ -5,6 +5,11 @@
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
+    background-color: #E1EDCE;
+}
+
+.feature-card--bad {
+    background-color: #F8DDD7;
 }
 
 .feature-card__title {
@@ -12,7 +17,6 @@
     grid-row: 2/3;
     margin: 0;
 }
-
 .feature-card__type {
     display: block;
     width: fit-content;
@@ -24,14 +28,12 @@
     font-size: 14px;
     line-height: 150%;
     color: #ffffff;
+    background: #88AA4D;
 }
-/* 
-.feature-card__image {
-    grid-row: 1/3;
-    grid-column: 1/2;
-    margin-right: 20px;
-} */
 
+.feature-card__type--bad {
+    background-color: #F75531;
+}
 
 .feature-card__image {
     width: 56px;
