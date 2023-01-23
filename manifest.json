@@ -1,0 +1,20 @@
+{
+  "short_name": "Фермерские продукты",
+  "name": "Магазин фермерских продуктов с доставкой",
+  "icons": [
+    {
+      "src": "./icons/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./icons/favicon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#88AA4D",
+  "background_color": "#ffffff"
+}
