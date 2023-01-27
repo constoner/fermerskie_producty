@@ -5,7 +5,13 @@ import Button from '../../ui/button/button';
 function Nav ({className}) {
     return (
         <nav className={`${className}`}>
-            <Button size={260} className='header__button'>Купить</Button>
+            <Button
+                className='header__button'
+                minWidth={260}
+                link='./order.html'
+            >
+                Купить
+            </Button>
         </nav>
     );
 }

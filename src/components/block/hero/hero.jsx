@@ -21,7 +21,7 @@ function Hero ({hero}) {
                         </>
                     ) : null}
                 </div>
-                <img className='hero__image' src={hero.image} alt="Изображение счастливого фермера." />
+                {/* <img className='hero__image' src={hero.image} alt="Изображение счастливого фермера." /> */}
             </div>
             </>
             ) : null}

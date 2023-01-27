@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "install": "^0.13.0",
     "styled-components": "^5.3.6"
   }
 }

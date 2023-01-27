@@ -29,7 +29,7 @@ function Features ({featuresList}) {
                             {selectFeatureByType(featuresList, true)}
                         </ul>
                     </div>
-                    <Button className='features__button' size={260}>Купить</Button>
+                    <Button className='features__button' minWidth={260}>Купить</Button>
                 </section>
             ) : null}
         </>
