@@ -20,7 +20,7 @@ function Features ({featuresList}) {
         <>
             {featuresList?.length ? (
                 <section className='features'>
-                    <Title className='features__title' size={TitleSize.MEDIUM}>Почему фермерские продукты лучше?</Title>
+                    <Title className='features__title' level={2} size={TitleSize.MEDIUM}>Почему фермерские продукты лучше?</Title>
                     <div className="features__wrapper">
                         <ul className="features__list features__list--good">
                             {selectFeatureByType(featuresList, false)}

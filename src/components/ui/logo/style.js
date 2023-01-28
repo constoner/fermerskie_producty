@@ -11,12 +11,12 @@ const StyledLogo = styled(A)`
     & span {
         position: relative;
         vertical-align: middle;
-        font-family: "Inter", "Arial", sans-serif;
+        font-family: ${(props) => props.theme.fontFamily};
         font-style: normal;
         font-weight: 700;
         font-size: 28px;
         line-height: 125%;
-        color: #333333;
+        color: ${(props) => props.theme.colorBlackText};
 
         &::after {
             position: absolute;
@@ -25,7 +25,7 @@ const StyledLogo = styled(A)`
             display: block;
             width: 100%;
             height: 3px;
-            background-color: #333333;
+            background-color: ${(props) => props.theme.colorBlackText};
             opacity: 0;
             content: "";
             transition: all 0.1s ease-out;
