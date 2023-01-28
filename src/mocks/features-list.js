@@ -7,8 +7,8 @@ const featuresList = [
         text: 'Домашняя колбаса из мяса, соли и специй и колбаса из магазина — два настолько разных продукта, что они даже не родственники',
         type: 'Фермерские продукты',
         isBad: false,
-        image: require('./../assets/feature-eat.svg').default,
-    }, 
+        image: require('../assets/feature-eat.svg').default,
+    },
     {
         id: 1,
         title: 'Просроченные продукты',
