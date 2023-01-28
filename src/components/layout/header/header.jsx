@@ -7,7 +7,7 @@ import Nav from '../../layout/nav/nav';
 function Header () {
     return (
         <header className="header">
-            <Logo className='header__logo' />
+            <Logo className='header__logo' link="/" />
             <Nav className='header__nav' />
         </header>
     );

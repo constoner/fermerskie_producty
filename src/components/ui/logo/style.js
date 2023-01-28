@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 import { A } from '../../styled/';
+import  { ReactComponent as logo } from '../../../assets/logo.svg'
+
+const LogoSVG = styled(logo)`
+    margin-right: 24px;
+    vertical-align: middle;
+`;
 
 const StyledLogo = styled(A)`
-    & img {
-        margin-right: 24px;
-        vertical-align: middle;
-    }
-
     & span {
         position: relative;
         vertical-align: middle;
@@ -36,4 +37,4 @@ const StyledLogo = styled(A)`
     }
 `;
 
-export default StyledLogo;
+export { LogoSVG, StyledLogo };

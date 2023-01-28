@@ -1,12 +1,12 @@
 import React from 'react';
-import StyledLogo from './style.js';
-import logo from '../../../assets/logo.svg'
+import { LogoSVG, StyledLogo } from './style.js';
+// import  { ReactComponent as LogoSVG } from '../../../assets/logo.svg'
 
-function Logo ({className}) {
+function Logo ({className, link}) {
     return (
-        <StyledLogo className={`logo ${className}`} href='/'>
-            <img className='logo__image' src={logo} width={44} height={44} alt='Логотип магазина.' />
-            <span className='logo__text'>Фермерские продукты</span>
+        <StyledLogo className={`logo ${className}`} href={link}>
+            <LogoSVG role="image" alt='Логотип магазина.' />
+            <span>Фермерские продукты</span>
         </StyledLogo>
     );
 }
