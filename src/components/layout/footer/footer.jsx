@@ -1,13 +1,13 @@
 import React from 'react';
-import './style.css';
+import { StyledFooter, StyledCredits } from './style';
 import Logo from '../../ui/logo/logo';
 
 function Footer () {
     return (
-        <footer className='footer'>
+        <StyledFooter className='footer'>
             <Logo className='footer__logo' link='/' />
-            <a className='footer__credit' href='https://github.com/constoner/fermerskie_producty' target="_blank" rel='noreferrer'>Создано 2021</a>
-        </footer>
+            <StyledCredits className='footer__credits' href='https://github.com/constoner/fermerskie_producty' target="_blank" rel='noreferrer'>Создано 2021</StyledCredits>
+        </StyledFooter>
     );
 }
 
