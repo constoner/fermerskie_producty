@@ -18,7 +18,7 @@ function Features ({featuresList}) {
                                 )
                             )}
                         </StyledFeaturesList>
-                    <Button className='features__button' minWidth={260} link='/order.html'>Купить</Button>
+                    <Button className='features__button' minWidth={260} link='./order.html'>Купить</Button>
                 </StyledFeatures>
             ) : null}
         </>

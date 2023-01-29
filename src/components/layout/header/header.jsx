@@ -6,7 +6,7 @@ import Nav from '../../layout/nav/nav';
 function Header () {
     return (
         <StyledHeader className="header">
-            <Logo className='header__logo' link="/" />
+            <Logo className='header__logo' link="./" />
             <Nav className='header__nav' />
         </StyledHeader>
     );

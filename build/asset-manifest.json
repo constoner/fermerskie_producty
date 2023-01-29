@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/fermerskie_producty/static/js/main.abd2d90b.js",
+    "static/media/hero.svg": "/fermerskie_producty/static/media/hero.98d656091a5c9395cf79ea6ebd98c7a0.svg",
+    "static/media/feature-overdue.svg": "/fermerskie_producty/static/media/feature-overdue.30c346b51d422c5718576b09f2c0e1f5.svg",
+    "static/media/logo.svg": "/fermerskie_producty/static/media/logo.6343f88ea207646525b33f452fa381ac.svg",
+    "static/media/feature-organic.svg": "/fermerskie_producty/static/media/feature-organic.16a721fdd7b7f0628135d86fcd1ea94e.svg",
+    "static/media/feature-eat.svg": "/fermerskie_producty/static/media/feature-eat.c843a6f28525e4b34b8fdea0444329bf.svg",
+    "static/media/feature-meat.svg": "/fermerskie_producty/static/media/feature-meat.484ad53e08fc936065a941a677062a6f.svg",
+    "index.html": "/fermerskie_producty/index.html",
+    "main.abd2d90b.js.map": "/fermerskie_producty/static/js/main.abd2d90b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.abd2d90b.js"
+  ]
+}
