@@ -4,6 +4,7 @@ import { Button } from '../../styled/';
 
 export const StyledButton = styled(Button)`
     display: block;
+    width: fit-content;
     min-width: ${(props) => props.minWidth}px;
     padding: 16.5px;
     font-weight: 700;

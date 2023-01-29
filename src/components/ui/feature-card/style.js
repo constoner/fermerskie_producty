@@ -6,7 +6,7 @@ const StyledImage = styled.div`
     height: 56px;
     grid-row: 1/3;
     grid-column: 1/2;
-    margin-right: 20px;
+    margin-right: ${(props) => props.theme.indent};
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -42,7 +42,7 @@ const StyledFeatureCard = styled.article`
         grid-column: 1/3;
         grid-row: 3/4;
         margin: 0;
-        margin-top: 20px;
+        margin-top: ${(props) => props.theme.indent};
     }
 `;
 
