@@ -6,6 +6,7 @@ export const defaultTheme = {
     colorBackgroundLite: "#ffffff", // основной фон
     colorBackgroundDark: "#f6f6f6", // основной темный фон
     colorBackgroundAccent: "#d8ecfe", // акцентный фон
+    colorBackgroundAccentDark: "#c4e2ff", // акцентный фон
     colorCardGoodBackground: "#e1edce", // фон положительной фичи
     colorCardGoodTag: "#88aa4d", // фон положительного тэга
     colorCardBadBackground: "#f8ddd7", // фон отрицательной фичи
