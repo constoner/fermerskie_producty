@@ -13,6 +13,8 @@ const StyledFooter = styled.footer`
     padding: 10px ${(props) => props.theme.pagePadding};
     background-color: ${(props) => props.theme.colorBackgroundLite};
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: -5px 20px 20px rgba(0, 0, 0, 0.04), 5px 20px 20px rgba(0, 0, 0, 0.04); 
+
 `;
 
 const StyledCredits = styled(A)`
