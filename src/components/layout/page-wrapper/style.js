@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledMain = styled.main`
+    flex-grow: 1;
     width: ${(props) => props.theme.pageWidth};
     margin: 0 auto;
     background-color: ${(props) => props.theme.colorBackgroundLite};
