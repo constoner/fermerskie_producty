@@ -13,7 +13,6 @@ export const StyledHeader = styled.header`
     margin: 0 auto;
     padding: 10px ${(props) => props.theme.pagePadding};
     background-color: ${(props) => props.theme.colorBackgroundLite};
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: -5px 0px 20px rgba(0, 0, 0, 0.04), 5px 0px 20px rgba(0, 0, 0, 0.04); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
 
 `;
