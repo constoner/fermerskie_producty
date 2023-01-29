@@ -15,18 +15,15 @@ const StyledWrapper = styled.div`
 
 const StyledFeaturesList = styled(Ul)`
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
     gap: ${(props) => props.theme.indent};
-    width: 50%;
-    flex-grow: 1;    
-    &:not(:last-child) {
-        margin-right: ${(props) => props.theme.indent};
-    }
-
-    & li {
-        min-height: 197px
-    }
+    margin: 64px 0;
 `;
 
+const StyledItem = styled.li`
+        min-height: 197px;
+        grid-column: ${props => props.tag ? '2/3' : '1/2'};
+`;
 
-export { StyledFeatures, StyledWrapper,  StyledFeaturesList };
+export { StyledFeatures, StyledWrapper,  StyledFeaturesList, StyledItem };
